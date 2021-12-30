@@ -1,15 +1,11 @@
 package com.carlister.security.model;
 
-import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.util.Objects;
 
-@Entity
-@Table(name = "AUTHORITY")
+
 public class Authority {
 
-   @Id
-   @Column(name = "NAME", length = 50)
    @NotNull
    private String name;
 
